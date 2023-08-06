@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left{
+    width: 20vw;
+    height: 100vh;
+    background-color: black;
+    float: left;
+}
+.right{
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(54, 54, 53);
+    float: right;
+    
+}
+.top
+{
+    background-color: rgb(17, 90, 168);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 200px;
+    height: 130px;
+    background-color: blueviolet; 
+
+   
+}
+.panny{
+   
+    background-color: white;
+    height: 90px;
+    width: 150px;
+    margin:auto;
+    margin-top: 0px;
+    position: static;
+
+}
+.topLeft{
+    background-color: red;
+    height: 7px;
+    width: 60px;
+}
+.sideLeft{
+        background-color: red;
+        height: 55px;
+        width: 7px;
+}
