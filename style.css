@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -18,7 +21,6 @@
 }
 .top
 {
-    background-color: rgb(17, 90, 168);
     height: 250px;
     display: flex;
     justify-content: center;
@@ -27,18 +29,14 @@
 .name{
     width: 200px;
     height: 130px;
-    background-color: blueviolet; 
-
-   
 }
 .panny{
-   
-    background-color: white;
     height: 90px;
     width: 150px;
-    margin:auto;
-    margin-top: 0px;
-    position: static;
+    position: absolute;
+    top: 80px;
+    left: 78px;
+    color: white;
 
 }
 .topLeft{
@@ -50,4 +48,31 @@
         background-color: red;
         height: 55px;
         width: 7px;
+}
+.bottomRight{
+    background-color: red;
+    height: 55px;
+    width: 7px;
+    position: relative;
+    left: 193px;
+    top:10px;
+}
+.sideRight{
+    width: 60px;
+    height: 7px;
+    background-color: red;
+    position: relative;
+    top:8px;
+    left:140px;
+}
+.panny p{
+    position: absolute;
+    top: -7px;
+    left: 8%;;
+    font-size: 50px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.panny p::first-letter{
+    font-family: 'Quintessential', cursive;
+    font-size: 60px;
 }
